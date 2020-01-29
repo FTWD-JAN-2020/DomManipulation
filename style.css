@@ -1,0 +1,30 @@
+*{
+    transition: all .5s;
+}
+
+
+body{
+    height: 2000px;
+    background: url('https://storage.ning.com/topology/rest/1.0/file/get/70945900?profile=RESIZE_1024x1024');
+    background-size: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+}
+.mouse{
+    font-size: 24px;
+
+}
+
+.mouse:nth-child(odd){
+    color: orange;
+}
+
+.mouse:nth-child(even){
+    color: darkblue;
+}
+
+.dead.mouse {
+    font-size: 4px;
+    color:red;
+}
